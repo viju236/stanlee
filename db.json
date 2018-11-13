@@ -1,17 +1,17 @@
 [
-{
-"id":1,
-"temprature":20,
-"humidity":45
+ {
+  "id":1,
+  "temprature":20,
+  "humidity":45
+ },
+ {
+  "id":2,
+  "temprature":30,
+  "humidity":24
 },
 {
-"id":2,
-"temprature":30,
-"humidity":24
-},
-{
-"id":1,
-"temprature":45,
-"humidity":55
+  "id":1,
+  "temprature":45,
+  "humidity":55
 }
 ]
