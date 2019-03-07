@@ -1,0 +1,122 @@
+
+{
+"modelConfiguration": {
+    "polynomialDegree": 2
+  },
+  "metadataConfiguration": {
+    "outputVariable": {
+      "entityId": "turbine1",
+      "propertySetName": "monitoringModule",
+      "propertyName": "powerOutputSensor"
+    },
+    "inputVariables": [
+      {
+        "entityId": "turbine1",
+        "propertySetName": "combustionSubpart1",
+        "propertyName": "temperature"
+      },
+      {
+        "entityId": "turbine1",
+        "propertySetName": "combustionSubpart1",
+        "propertyName": "pressure"
+      }
+    ]
+  },
+  "trainingData": [
+    {
+      "variable": {
+        "entityId": "turbine1",
+        "propertySetName": "monitoringModule"
+      },
+      "timeSeries": [
+        {
+          "_time": "2017-10-01T12:00:00.001Z",
+          "powerOutputSensor": "20.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.002Z",
+          "powerOutputSensor": "21.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.003Z",
+          "powerOutputSensor": "33.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.001Z",
+          "powerOutputSensor": "42.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.002Z",
+          "powerOutputSensor": "56.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.003Z",
+          "powerOutputSensor": "17.0"
+        }
+      ]
+    },
+    {
+      "variable": {
+        "entityId": "turbine1",
+        "propertySetName": "combustionSubpart1"
+      },
+      "timeSeries": [
+        {
+          "_time": "2017-10-01T12:00:00.001Z",
+          "temperature": "20.0",
+          "pressure": "210.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.002Z",
+          "temperature": "19.0",
+          "pressure": "131.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.003Z",
+          "temperature": "12.0",
+          "pressure": "772.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.001Z",
+          "temperature": "10.0",
+          "pressure": "897.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.002Z",
+          "temperature": "28.0",
+          "pressure": "330.0"
+        },
+        {
+          "_time": "2017-10-01T12:00:00.003Z",
+          "temperature": "33.0",
+          "pressure": "572.0"
+        }
+      ]
+    }
+  ],
+  "predictionData": [
+    {
+      "variable": {
+        "entityId": "turbine1",
+        "propertySetName": "combustionSubpart1"
+      },
+      "timeSeries": [
+        {
+          "_time": "2018-10-01T12:00:00.004Z",
+          "temperature": "20.0",
+          "pressure": "10.0"
+        },
+        {
+          "_time": "2018-10-01T12:00:00.005Z",
+          "temperature": "21.0",
+          "pressure": "11.0"
+        },
+        {
+          "_time": "2018-10-01T12:00:00.006Z",
+          "temperature": "23.0",
+          "pressure": "12.0"
+        }
+      ]
+    }
+  ]
+}
